@@ -1,0 +1,129 @@
+body {
+    background: #F3F5FC;
+    width: 100%;
+    height: 100%;
+}
+
+.texto-encriptar{
+    color:#0A3871;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    right: 84%;
+    width: 40%;
+    height: 65%;
+    font-size: 2em;
+    resize: none;
+    outline:0px;
+    text-transform: lowercase;
+}
+
+.botones{
+    width: 680px;
+    height: 67px;
+    top: 84%;
+    left: 18%;
+    gap: 24px;
+    position: absolute;
+    display: flex;
+    
+}
+
+.boton-encriptar{
+    background: #0A3871;
+    width: 328px;
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.boton-encriptar:hover{
+    background: #042144;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.boton-desencriptar{
+    background: #D8DFE8;
+    width: 328px;
+    height: Hug (67px);
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    border: none;
+    font-size: 18px;
+}
+
+.boton-desencriptar:hover{
+    background: #b1b1b6;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.cuadro-derecho{
+    width: 25%;
+    height: 92%;
+    top: 4%;
+    left: 70%;
+    right: 30%;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    position: absolute;
+    display: block;
+
+}
+
+.texto-encriptar-derecho{
+    color: #0A3871;
+    border: none;
+    background: none;
+    position: sticky;
+    top: 15%;
+    left: 16%;
+    right: 84%;
+    width: 100%;
+    height: 65%;
+    font-size: 2em;
+    resize: none;
+    outline: 0px;
+    text-transform: lowercase;
+}
+
+.imagen-busqueda{
+    display:block;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
+   
+}
+
+.mensaje{
+    display: block;
+    position: absolute;
+    top: 75%;
+    bottom: 20%;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 16%;
+}
+
+.mensaje p{
+    text-align: center;
+    font-size: 16px;
+    color: #495057;
+}
+
+.mensaje p:first-child{
+    font-weight: bold;
+    color: #0A3871;
+    font-size: 24px;
+}
